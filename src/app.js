@@ -39,12 +39,12 @@ function displayTemperature(response) {
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
   iconElement.setAttriubte(
     "src",
-    `http://openweathermap.org/img/in/04d@2x.png`
+    `http://openweathermap.org/img/in/${response.data.weather[0].icon}@2x.png`
   );
 }
 
 let apiKey = "5a43febac9e08234e55ed941a9b78425";
-let city = "Paris";
+let city = "Orlando";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
