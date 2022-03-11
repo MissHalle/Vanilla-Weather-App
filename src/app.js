@@ -33,7 +33,7 @@ function displayTemperature(response) {
 
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
   cityElement.innerHTML = response.data.name;
-  descriptionElement.innerHTML = response.data.weather[0].dscription;
+  descriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
@@ -44,7 +44,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "5a43febac9e08234e55ed941a9b78425";
-let city = "England";
+let city = "Moscow";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
