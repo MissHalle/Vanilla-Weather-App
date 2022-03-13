@@ -21,60 +21,62 @@
           <form id="search-form" class="mb-3">
             <div class="row">
               <div class="col-9">
-                <input type="search"
-                autofocus="on"
-                placeholder="Type a city.."
-                class="form-control"
-                id="city-input" 
-                autocomplete="off"
+                <input
+                  type="search"
+                  autofocus="on"
+                  placeholder="Type a city.."
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
                 />
-            </div>
-             <div class="col-3">
-              <input 
-              type="submit" 
-              value="Search" 
-              class="btn btn-primary w-100 shadow-sm" 
-              />
-             </div>
-           </div>
-          </form>
-          <div class="overview">
-            <h3 id="city"></h3>
-            <ul>
-              <li>Last Updated: <span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
-          </div>
-          <div class="row">
-            <div class="col-6">
-              <div class="clearfix weather-temperature">
-                <img src="" alt="Clear" id ="icon" class="float-right" />
-                <div class="float-right">
-                  <strong id="temperature"></strong
-                    ><span class="units">
-                      <a href="#" id="celsius-link" class="active"> °C</a> | 
-                      <a href="#" id="fahrenheit-link">°F</a>
-                    </span>
-                </div>
               </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100 shadow-sm"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="row">
+            <div class="overview">
+              <h3 id="city"></h3>
+              <ul>
+                <li>Last Updated: <span id="date"></span></li>
+                <li id="description"></li>
+              </ul>
             </div>
             <div class="col-6">
               <ul>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> Km/H</li>
               </ul>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="clearfix weather-temperature">
+              <img src="" alt="Clear" id="icon" class="float-right" />
+              <div class="float-right">
+                <strong id="temperature"></strong
+                ><span class="units">
+                  <a href="#" id="celsius-link" class="active"> °C</a> |
+                  <a href="#" id="fahrenheit-link">°F</a>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
-      <hr />
+        <hr />
         <div class="github-link">
-        <small>
-          <a
-            href="https://github.com/MissHalle/Vanilla-Weather-App"
-            target="_blank"
-            >Open-source code</a
-          >
-          by Halle Gregory
-        </small>
+          <small>
+            <a
+              href="https://github.com/MissHalle/Vanilla-Weather-App"
+              target="_blank"
+              >Open-source code</a
+            >
+            by Halle Gregory
+          </small>
         </div>
       </div>
     </div>
