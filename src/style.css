@@ -1,4 +1,4 @@
-body {
+.container {
   background-color: azure;
   font-family: Arial, sans-serif;
 }
@@ -17,6 +17,7 @@ ul {
 
 li {
   list-style: none;
+  display: block;
   margin: 0;
   padding: 0;
   color: #878878;
@@ -64,4 +65,9 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+.github-link {
+  display: block;
+  margin: 0 auto;
+  text-align: right;
 }
