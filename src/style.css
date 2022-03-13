@@ -1,6 +1,8 @@
-.container {
-  background-color: azure;
+.body {
   font-family: Arial, sans-serif;
+}
+.weather-app {
+  background-color: azure;
 }
 
 h3 {
