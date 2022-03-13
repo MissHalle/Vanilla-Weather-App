@@ -60,7 +60,13 @@ li:first-letter {
   font-size: 16px;
   top: -34px;
 }
-
+.col-6 {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
