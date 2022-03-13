@@ -5,7 +5,7 @@ body {
 .weather-app {
   background-color: whitesmoke;
 }
-.Weather-app .search-input {
+.weather-app .search-input {
   background: #f9f7fe;
   border: none;
   padding: 15px 20px;
@@ -16,7 +16,7 @@ body {
   height: 50px;
   line-height: 20px;
 }
-.Weather-app .btn {
+.weather-app .btn {
   background: #885df1;
   font-weight: 700;
   font-size: 16px;
