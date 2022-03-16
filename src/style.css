@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
 }
 .weather-app {
-  background-color: whitesmoke;
+  background-color: #f6f6f6;
 }
 .weather-app .search-input {
   background: #f9f7fe;
