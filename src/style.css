@@ -78,7 +78,13 @@ li:first-letter {
   padding-right: 15px;
   padding-left: 15px;
 }
-
+.col-3 {
+  display: block;
+  position: right;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
