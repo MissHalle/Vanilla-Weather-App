@@ -81,11 +81,6 @@ li:first-letter {
 .col-3 {
   display: block;
   position: right;
-  width: 100%;
-  padding-right: -30px;
-  padding-right: 0px;
-  padding-left: 100px;
-  height: 200px;
 }
 .weather-temperature .active {
   color: rgb(33, 33, 33);
