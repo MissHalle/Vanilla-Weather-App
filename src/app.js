@@ -24,9 +24,9 @@ function formatDate(timestamp) {
 
 function displayForecast() {
   let forecastElement = document.querySelector("#forecast");
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu"];
 
   let forecastHTML = `<div class="row">`;
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thu"];
   days.forEach(function (day) {
     forecastHTML =
       forecastHTML +
@@ -38,10 +38,10 @@ function displayForecast() {
       <span class="weather-forecast-min-temperature"> 18° </span>
       <span class="weather-forecast-max-temperature"> 70° </span>
     </div>
-   </div>
-</div>
+ </div>
 `;
   });
+
   forecastHTML = forecastHTML + `</div`;
   forecastElement.innerHTML = forecastHTML;
 }
