@@ -65,6 +65,7 @@ li:first-letter {
   margin-right: 5px;
   height: 64px;
   width: 64px;
+  text-align: center;
 }
 .weather-temperature strong {
   color: rgb(33, 33, 33);
