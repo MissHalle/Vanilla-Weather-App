@@ -91,6 +91,11 @@ li:first-letter {
   text-align: center;
   color: black;
 }
+.forecast {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.5;
